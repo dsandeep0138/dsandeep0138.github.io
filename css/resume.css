@@ -143,6 +143,11 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
+section.resume-section .resume-item .resume-content {
+  border: 1px solid #d3d3d3;
+  border-radius: 0.25rem;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
