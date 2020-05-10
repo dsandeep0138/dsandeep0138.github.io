@@ -2,9 +2,11 @@
 
 body {
   @include body-font;
+
   padding-top: 54px;
   color: $gray-600;
 }
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -19,6 +21,7 @@ h4,
 h5,
 h6 {
   @include heading-font;
+
   font-weight: 700;
   text-transform: uppercase;
   color: $gray-800;
@@ -45,7 +48,9 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
+
   @include heading-font;
+
   font-size: 1.5rem;
 }
 
@@ -61,9 +66,11 @@ p.lead {
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
+
     &:last-child {
       margin-right: 0;
     }
+
     &:hover {
       background-color: $primary;
     }
@@ -72,6 +79,7 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+
   .list-inline-item i {
     &:hover {
       color: $primary;

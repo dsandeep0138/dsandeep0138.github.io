@@ -1,3 +1,7 @@
+<h3 align="center">
+  <img src="img/snapshot.png" width="800">
+</h3>
+
 ## Credits
 
 Edited on top of the [Resume theme](https://startbootstrap.com/themes/resume/) here.
