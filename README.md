@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img src="img/snapshot.png" width="800">
+  <img src="img/snapshot.PNG" width="800">
 </h3>
 
 ## Credits
