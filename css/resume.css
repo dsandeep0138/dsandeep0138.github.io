@@ -58,7 +58,9 @@ a {
   color: #bd5d38;
 }
 
-a:hover, a:focus, a:active { color: #824027; }
+a:hover,
+a:focus,
+a:active { color: #824027; }
 
 .social-icons a {
   display: inline-block;
@@ -86,7 +88,7 @@ a:hover, a:focus, a:active { color: #824027; }
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #bd5d38;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
