@@ -1,6 +1,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/df84c2d326b340d5998e671728cb2e22)](https://www.codacy.com/manual/dsandeep0138/dsandeep0138.github.io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dsandeep0138/dsandeep0138.github.io&amp;utm_campaign=Badge_Grade)
 
-My portfolio.
+My professional portfolio.
 
 ## Snapshot
 
