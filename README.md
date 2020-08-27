@@ -1,4 +1,4 @@
-My professional portfolio webpage.
+My professional portfolio webpage
 
 ## Snapshot
 
