@@ -1,4 +1,4 @@
-My professional webpage
+My professional webpage.
 
 ## Snapshot
 
