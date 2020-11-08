@@ -1,4 +1,4 @@
-$(window).load(function() {
+window.onload = function() {
     var grid = document.getElementById("puzzle-grid");
     var numChildren = grid.childElementCount;
     var clickSound = new Audio('assets/click.mp3');
@@ -94,4 +94,4 @@ $(window).load(function() {
             }
         }
     }
-});
+}
