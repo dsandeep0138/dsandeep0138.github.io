@@ -1,3 +1,7 @@
+html, body {
+    height: 600px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -50,9 +54,7 @@ body {
 
 .answer-container {
     top: 0;
-    left: 850px;
-    width: 150px;
-    position: absolute;
+    position: relative;
     border: 3px solid black;
 }
 
@@ -69,18 +71,21 @@ body {
     background: white;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.12);
     border-radius: 5px;
+    display: block;
 }
 
 #submit {
-    top: 420px;
-    left: 50px;
-    position: absolute;
+    width: 100px;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
 }
 
 #game-actions {
     margin: 30px auto;
     margin-top: 20px;
-    width: 1000px;
+    width: 900px;
     left: 100px;
     position: relative;
 }
@@ -104,7 +109,7 @@ body {
     font-weight: bold;
 }
 
-#moves[readonly]{
+#moves[readonly] {
     width: 70px;
     height: 16px;
     text-align: center;
@@ -116,4 +121,113 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+.submission {
+    left: 850px;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+@media screen and (max-width: 480px) {
+    #venn {
+        width: 400px;
+    }
+
+    #game-actions {
+        width: 400px;
+        left: 0;
+    }
+
+    #moves-div {
+        left: 150px;
+    }
+
+    .circle {
+        width: 400px;
+        height: 300px;
+    }
+
+    #c2 {
+        top: 150px;
+        left: 0;
+    }
+
+    #c2 .venn-header {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+    }
+
+    #both {
+        top: 150px;
+        left: 0;
+        width: 400px;
+        height: 150px;
+    }
+
+    .submission {
+        top: 500px;
+        left: 15px;
+        right: 15px;
+        width: auto;
+        position: absolute;
+        box-sizing: border-box;
+    }
+
+    .answer-container {
+        position: relative;
+        border: 3px solid black;
+    }
+
+    .word-bank {
+        height: 0;
+    }
+
+    .answer {
+        width: 100px;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    html, body {
+        height: 1000px;
+    }
+
+    #venn {
+        width: 700px;
+    }
+
+    #game-actions {
+        width: 550px;
+	left: 0;
+    }
+
+    .submission {
+        top: 450px;
+        left: 0;
+        margin: 10px auto;
+        width: 700px;
+        position: absolute;
+        box-sizing: border-box;
+    }
+
+    .answer-container {
+        position: relative;
+        border: 3px solid black;
+    }
+
+    .answer {
+        width: 150px;
+        display: inline-block;
+	box-sizing: border-box;
+    }
 }
