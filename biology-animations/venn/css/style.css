@@ -80,6 +80,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     position: relative;
+    box-sizing: content-box;
 }
 
 #game-actions {
