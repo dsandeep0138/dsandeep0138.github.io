@@ -126,7 +126,7 @@ body {
 
 .submission {
     left: 850px;
-    height: 100%;
+    height: auto;
     width: 150px;
     display: flex;
     flex-direction: column;
